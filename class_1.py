@@ -17,7 +17,7 @@ class InstaFollower:
         time.sleep(2)
         username = self.driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[1]/div/label/input')
         username.send_keys('tanvir.python.test@gmail.com')
-        time.sleep(2)
+        time.sleep(3)
         password = self.driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[2]/div/label/input')
         password.send_keys('v%Fyr8Ea$o4y6X8(Y')
         time.sleep(2)
